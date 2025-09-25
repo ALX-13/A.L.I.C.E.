@@ -22,7 +22,7 @@ Cada modelo representa un trade-off entre velocidad y precisión:
 - Los grandes (large, large-v2, large-v3) ofrecen la máxima precisión a costa de rendimiento.
 """
 
-model = WhisperModel("small", device="cpu")
+model = WhisperModel("medium", device="cpu")
 
 SAMPLE_RATE = 16000
 
